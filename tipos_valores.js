@@ -21,3 +21,10 @@ console.log(typeof (() => {})); // las funciones nno son valores, estan dentros 
 console.log(typeof []);
 console.log(typeof new Date());
 console.log(typeof /a/);
+
+console.log(typeof value === 'date');
+
+let aDatos = [3, 4, 5, 6];
+
+aDatos[0] = 'Pepe';
+console.log(aDatos);

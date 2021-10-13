@@ -5,9 +5,11 @@ console.log(a + b);
 console.log(a - b);
 console.log(a - 'pepe');
 
-function suma(a, b) {
+function suma(a = 0, b = 0) {
   const result = a + b;
   return result;
 }
 
-console.log(suma());
+console.log(suma(1, 2));
+
+//---------------------------------------
